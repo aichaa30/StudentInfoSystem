@@ -8,9 +8,7 @@ A C-based application for managing student information, course registrations, an
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Demo](#demo)
 
 ---
 ## Overview
@@ -100,6 +98,7 @@ data/                    # Data folder for backups and saved records
 
 users/                   # Folder for user credentials
 
+--- 
 ### Demo
 
 
