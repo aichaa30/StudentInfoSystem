@@ -1,4 +1,4 @@
-# Student Information Management System
+# 🌟 Student Information Management System
 
 A C-based application for managing student information, course registrations, and attendance records with enhanced features for data security and backup.
 
@@ -48,21 +48,59 @@ This project is designed to streamline the management of student-related data wi
   - Separate menus for Admin and User roles for streamlined access to features.
 ---
  ## Installation
-
-### Prerequisites:
+ 
+ ### Prerequisites:
 - A C compiler (e.g., GCC).
 - Basic understanding of terminal/command-line operations.
+  
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/StudentInfoSystem.git
+    cd StudentInfoSystem 
+    ```
 
-### Clone the Repository:
-```bash
-git clone https://github.com/yourusername/StudentInfoSystem.git
-cd StudentInfoSystem 
+2. **Compile the program**:
+    ```bash
+    gcc StudentInfo.c -o StudentInfoSystem
+    ```
 
-### Compile the Program:
-```bash
-gcc StudentInfo.c -o StudentInfoSystem
+3. **Run the program**:
+    ```bash
+    ./StudentInfoSystem
+    ```
+--- 
 
-Run the Program:
-./StudentInfoSystem
+## Usage
+
+### Register a User:
+- Start the program and choose the Register option.
+- Enter the desired username, password, and role (Admin/User).
+
+### Login:
+- Use your credentials to log in.
+- Admins can access the full set of functionalities, while Users have limited access.
+
+### Admin Menu:
+- Add students and manage their records.
+- View, search, update, or delete student information.
+- Manage course and attendance data.
+
+### User Menu:
+- View student records.
+- Search for students by roll number, first name, or course.
+
+--- 
+### Project Structure
+
+main.c                   # Main source file  
+
+README.md                # Project documentation
+
+data/                    # Data folder for backups and saved records
+
+users/                   # Folder for user credentials
+
+### Demo
 
 
+[example.pdf](https://github.com/user-attachments/files/18265397/example.pdf)
